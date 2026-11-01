@@ -19,8 +19,8 @@ dojo started empty, shares no commits with Yggdrasil, and does not follow upstre
 
 ## In one minute
 
-- **dojo is the umbrella of [piabrota](https://github.com/piabrota).** Every product is a git submodule
-  here, at a pinned commit, so one checkout holds the whole fabric.
+- **dojo is the umbrella of [piabrota](https://github.com/piabrota), the common layer of every repository.**
+  Each one is a git submodule here, at a pinned commit, so one checkout holds the whole fabric.
 - **It holds no product code.** Its only code is its own tooling, in `scripts/`.
 - **[mu](https://github.com/piabrota/mu) holds the rules.** The dogma, the charter and the standards live
   there, and dojo inherits them.

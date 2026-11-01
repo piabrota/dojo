@@ -47,3 +47,11 @@
 	url = https://github.com/h0ffmann/chaceon.git
 	branch = main
 	update = none
+[submodule "org-profile"]
+	path = org-profile
+	url = https://github.com/piabrota/.github.git
+	branch = main
+[submodule "closed-source"]
+	path = closed-source
+	url = https://github.com/h0ffmann/closed-source.git
+	branch = main

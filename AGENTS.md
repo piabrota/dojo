@@ -1,6 +1,6 @@
 # AGENTS.md: dojo
 
-dojo is the piabrota umbrella. It holds every product as a submodule, the routing table and its own
+dojo is the piabrota umbrella, the common layer of every repository. It holds each one as a submodule, the routing table and its own
 tooling. It holds no product code. Read this before you change anything here.
 
 ## Invariants
