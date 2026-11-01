@@ -1,0 +1,44 @@
+[submodule "alerts"]
+	path = alerts
+	url = https://github.com/piabrota/alerts.git
+	branch = main
+[submodule "pirsig"]
+	path = pirsig
+	url = https://github.com/piabrota/pirsig.git
+	branch = main
+[submodule "gramatico"]
+	path = gramatico
+	url = https://github.com/piabrota/gramatico.git
+	branch = main
+[submodule "nix-os"]
+	path = nix-os
+	url = https://github.com/piabrota/nix-os.git
+	branch = main
+[submodule "mu"]
+	path = mu
+	url = https://github.com/piabrota/mu.git
+	branch = main
+[submodule "rax"]
+	path = rax
+	url = https://github.com/piabrota/rax.git
+	branch = main
+[submodule "agents"]
+	path = agents
+	url = https://github.com/piabrota/agents.git
+	branch = main
+[submodule "ihero"]
+	path = ihero
+	url = https://github.com/piabrota/ihero.git
+	branch = main
+[submodule "skills"]
+	path = skills
+	url = https://github.com/h0ffmann/skills.git
+	branch = main
+[submodule "astrbot_dw_ext_br_south_disaster"]
+	path = astrbot_dw_ext_br_south_disaster
+	url = https://github.com/h0ffmann/astrbot_dw_ext_br_south_disaster.git
+	branch = main
+[submodule "astrbot_dw_ext_br_south_waterq"]
+	path = astrbot_dw_ext_br_south_waterq
+	url = https://github.com/h0ffmann/astrbot_dw_ext_br_south_waterq.git
+	branch = main

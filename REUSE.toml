@@ -1,0 +1,8 @@
+version = 1
+
+# Submodules are their own repositories, with their own licences.
+[[annotations]]
+path = ["**"]
+precedence = "closest"
+SPDX-FileCopyrightText = "2026 piabrota contributors"
+SPDX-License-Identifier = "MPL-2.0"
