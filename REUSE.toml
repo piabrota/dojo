@@ -6,3 +6,10 @@ path = ["**"]
 precedence = "closest"
 SPDX-FileCopyrightText = "2026 piabrota contributors"
 SPDX-License-Identifier = "MPL-2.0"
+
+# These lint configs came from ouroboric-dev/ouroboric, through piabrota/mu; see NOTICE.md.
+[[annotations]]
+path = [".github/workflows/lint.yml", ".pre-commit-config.yaml", ".markdownlint.yaml", ".yamllint.yaml", ".shellcheckrc"]
+precedence = "closest"
+SPDX-FileCopyrightText = ["2026 Bruno Guilhermo de Barros Valério", "2026 piabrota contributors"]
+SPDX-License-Identifier = "CC-BY-4.0"

@@ -9,6 +9,14 @@
 
 </div>
 
+dojo is the piabrota twin of [ouroboric-dev/yggdrasil](https://github.com/ouroboric-dev/yggdrasil): a hard
+fork in role, the same kind of umbrella, for piabrota's own products.
+dojo started empty, shares no commits with Yggdrasil, and does not follow upstream.
+
+> [!WARNING]
+> dojo is not an Ouroboric project, and Ouroboric does not endorse it. Ouroboric is a partner of piabrota. Report
+> a problem with dojo here, not upstream. [NOTICE.md](NOTICE.md) keeps the credit.
+
 ## In one minute
 
 - **dojo is the umbrella of [piabrota](https://github.com/piabrota).** Every product is a git submodule
