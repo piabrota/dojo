@@ -42,3 +42,8 @@
 	path = astrbot_dw_ext_br_south_waterq
 	url = https://github.com/h0ffmann/astrbot_dw_ext_br_south_waterq.git
 	branch = main
+[submodule "chaceon"]
+	path = chaceon
+	url = https://github.com/h0ffmann/chaceon.git
+	branch = main
+	update = none

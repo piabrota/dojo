@@ -8,6 +8,10 @@ default:
 init:
     git submodule update --init --depth 1 --jobs 4
 
+# Check out chaceon, which is private and which init skips; needs access to it
+init-private:
+    git submodule update --init --checkout --depth 1 chaceon
+
 # Show what each submodule is on
 status:
     git submodule status
@@ -15,6 +19,10 @@ status:
 # Check that REPOS.md and .gitmodules agree
 check:
     scripts/repos-check.sh
+
+# Write README.md's readiness table from GitHub
+readiness:
+    scripts/readiness.sh
 
 # Show which pointers are behind; this moves them in the checkout, and pushes nothing
 sync-dry-run:

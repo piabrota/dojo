@@ -28,6 +28,8 @@ No repo reads another repo's tree, in CI or in tests.
   tip of its branch and keeps one rolling branch, `chore/pointer-sync`. Never commit a pointer by hand,
   and never commit inside a submodule from dojo's own branch.
 - A person merges the sync pull request.
+- **`chaceon` is the exception.** It is private, so `.gitmodules` sets `update = none`: `just init` and the
+  sync skip it, and CI never needs access to it. A person moves its pointer by hand, in a pull request.
 - Never clone recursively: `just init` is the way in. mu also pins dojo, in its `products/`.
 
 ## Commands
@@ -36,5 +38,7 @@ No repo reads another repo's tree, in CI or in tests.
 | --- | --- |
 | Check out every repo at its pinned commit | `just init` |
 | See what each submodule is on | `just status` |
+| Check out `chaceon`, with access to it | `just init-private` |
+| Refresh the readiness table in the README | `just readiness` |
 | Check that `REPOS.md` and `.gitmodules` agree | `just check` |
 | See which pointers are behind, and change nothing outside the checkout | `just sync-dry-run` |
