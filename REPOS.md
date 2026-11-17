@@ -14,6 +14,8 @@ table and `.gitmodules` disagree. Each repo's own `AGENTS.md` and README hold th
 | `nix-os` | [piabrota/nix-os](https://github.com/piabrota/nix-os) | Nix | MPL-2.0 | the VPS that serves piabrota.art; a merge to its `main` is a deploy |
 | `ihero` | [piabrota/ihero](https://github.com/piabrota/ihero) | none yet | MPL-2.0 | a music player and game; only its licence so far |
 | `chaceon` | [h0ffmann/chaceon](https://github.com/h0ffmann/chaceon) (private) | Rust | closed source, for now | the Rust port of WW3, the wave physics model; only people with access can fetch it |
+| `org-profile` | [piabrota/.github](https://github.com/piabrota/.github) | Markdown, Just | MPL-2.0 | the org profile; its path differs because `.github/` here holds dojo's workflows |
+| `closed-source` | [h0ffmann/closed-source](https://github.com/h0ffmann/closed-source) | Markdown | text CC BY 4.0, code AGPL-3.0 | *The god that failed*, a book |
 | `skills` | [h0ffmann/skills](https://github.com/h0ffmann/skills) | Markdown, Gleam | MPL-2.0 | the agent skills |
 | `astrbot_dw_ext_br_south_disaster` | [h0ffmann/astrbot_dw_ext_br_south_disaster](https://github.com/h0ffmann/astrbot_dw_ext_br_south_disaster) | Python | MPL-2.0 | the AstrBot extension for disasters in the South of Brazil |
 | `astrbot_dw_ext_br_south_waterq` | [h0ffmann/astrbot_dw_ext_br_south_waterq](https://github.com/h0ffmann/astrbot_dw_ext_br_south_waterq) | Python | MPL-2.0 | the AstrBot extension for bathing water quality in the South of Brazil |
